@@ -3,6 +3,8 @@
 #It might seem that buying at day 2 (1) and selling at day 5 (6) will result it 5, but it will ALWAYS be less than the consecutive differences
 #of peaks buy day 2(1), sell day 3(5) then buy day 4(3) sell day 5(6) [5-1 + 6-3 = 7 > 5]
 
+#Time: O(n) [Traversing array once], Space: O(1) 
+
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         
